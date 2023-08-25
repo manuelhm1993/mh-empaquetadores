@@ -23,6 +23,7 @@ module.exports = {
             {
                 test: /\.css$/i, // Expresión regular para identificar que extensiones procesar
                 use: [MiniCssExtractPlugin.loader, 'css-loader'], // Array para indicar la lista de cargadores a usar
+                exclude: /node_modules/
             },
         ],
     },

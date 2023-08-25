@@ -22,8 +22,8 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/, // Extensiones a tratar
-                use: ['babel-loader'], // Cargadores a usar
                 exclude: /node_modules/, // Excluir la carpeta node_modules
+                use: ['babel-loader'], // Cargadores a usar
             },
         ],
     },

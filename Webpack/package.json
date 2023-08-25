@@ -4,6 +4,7 @@
   "description": "Proyecto web para aprender webpack",
   "main": "src/index.js",
   "scripts": {
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/manuelhm1993/mh-empaquetadores/issues"
   },
-  "homepage": "https://github.com/manuelhm1993/mh-empaquetadores#readme"
+  "homepage": "https://github.com/manuelhm1993/mh-empaquetadores#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
 }

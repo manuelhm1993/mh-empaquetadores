@@ -17,5 +17,5 @@ module.exports = {
         filename: 'bundle.js',
     },
     // Modo de funcionamiento
-    mode: 'development',
+    mode: 'production',
 };

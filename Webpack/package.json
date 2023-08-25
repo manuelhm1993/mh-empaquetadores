@@ -1,0 +1,25 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Proyecto web para aprender webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelhm1993/mh-empaquetadores.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webpack",
+    "npm",
+    "javascript"
+  ],
+  "author": "Manuel Henriquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelhm1993/mh-empaquetadores/issues"
+  },
+  "homepage": "https://github.com/manuelhm1993/mh-empaquetadores#readme"
+}

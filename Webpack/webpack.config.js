@@ -10,6 +10,6 @@ module.exports = {
         filename: 'app.js', // Nombre del archivo compilado
         path: path.resolve(__dirname, 'dist'), // Directorio donde se ubicará la salida
     },
-    // Modo de trabajo
+    // Modo de trabajo: en producción minifica el código y en desarrollo agrega ayudas para el debugging
     mode: 'development',
 };

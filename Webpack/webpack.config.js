@@ -26,6 +26,8 @@ module.exports = {
     // Plugins: paquetes adicionales para añadir funciones especiales
     plugins: [
         new HtmlWebpackPlugin({
+            minify: true, // Si el archivo resultante está minificado
+            scriptLoading: 'blocking', // Donde ubica la etiqueta script, en este caso al final del body
             template: './src/index.html', // Plantilla de trabajo
             filename: './index.html' // Asset resultante con los css y js incorporados
         })

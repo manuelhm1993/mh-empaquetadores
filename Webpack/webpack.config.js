@@ -24,7 +24,7 @@ module.exports = {
         ],
     },
     // Plugins: paquetes adicionales para añadir funciones especiales
-    plugin: [
+    plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html', // Plantilla de trabajo
             filename: './index.html' // Asset resultante con los css y js incorporados

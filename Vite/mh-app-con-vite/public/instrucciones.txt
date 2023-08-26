@@ -1,0 +1,10 @@
+Página oficial de vite:
+https://vitejs.dev/
+
+Iniciar un proyecto con Vite:
+1. Crear el proyecto: npm create vite@latest nombre-app
+2. Seleccionar la tecnología javascript a usar: en este proyecto react
+3. Seleccionar la base js de trabajo:           en este proyecto javascript
+4. Entrar en la carpeta del proyecto:           cd nombre-app
+5. Instalar las dependencias npm:               npm install
+6. Levantar el servidor vite:                   npm run dev

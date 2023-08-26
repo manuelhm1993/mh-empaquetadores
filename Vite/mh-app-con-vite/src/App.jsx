@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// Importar los estilos personalizados con sass sin ningún otro tipo de configuración, pero instalando sass como dependencia
+import './estilos.scss';
+
 // Importar los estilos personalizados dentro del objeto styles
 import styles from './estilos.module.css';
 
@@ -21,7 +24,7 @@ function App() {
       </div>
 
       {/* Usar el objeto styles y la clase correspondiente */}
-      <h1 className={styles.rojo}>MHenriquez</h1>
+      <h1 className="azul">MHenriquez</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

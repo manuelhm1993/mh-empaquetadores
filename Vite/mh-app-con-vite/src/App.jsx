@@ -30,7 +30,8 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          {/* Uso de una variable de entorno, igual que el helper env() de laravel, vite se encarga de toda la configuración */}
+          { import.meta.env.VITE_API_KEY }
         </p>
       </div>
       <p className="read-the-docs">
